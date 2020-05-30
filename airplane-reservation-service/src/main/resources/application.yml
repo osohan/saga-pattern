@@ -1,0 +1,16 @@
+server:
+  port: 8083
+spring:
+  profiles: local
+  application:
+    name: hotel-reservation-service
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+secrets:
+  path:
+    dataSourceDriverClassName: C:\Users\OSokhan\Documents\secrets\sagapattern\airplane-reservation\dataSourceDriverClassName
+    dataSourceUrl: C:\Users\OSokhan\Documents\secrets\sagapattern\airplane-reservation\dataSourceUrl
+    dataSourceUsername: C:\Users\OSokhan\Documents\secrets\sagapattern\airplane-reservation\dataSourceUsername
+    dataSourcePassword: C:\Users\OSokhan\Documents\secrets\sagapattern\airplane-reservation\dataSourcePassword

@@ -7,6 +7,8 @@ import com.example.rentalcarreservationservice.service.CarRentalService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.UUID;
+
 @Service
 public class CarRentalServiceImpl implements CarRentalService {
 
@@ -26,6 +28,7 @@ public class CarRentalServiceImpl implements CarRentalService {
     @Override
     public void save(String requestId) {
         CarRental carRental = new CarRental();
+        carRental.setId(UUID.randomUUID().toString());
         carRental.setRequestId(requestId);
         carRental.setState(State.PENDING);
 

@@ -5,6 +5,7 @@ import com.example.rentalcarreservationservice.entity.CarRental;
 import com.example.rentalcarreservationservice.repository.CarRentalRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.EntityManager;
 
@@ -23,6 +24,7 @@ public class CarRentalMysqlDAO implements CarRentalDAO {
     }
 
     @Override
+    @Transactional
     public int deleteByRequestId(String requestId) {
         return entityManager.createQuery("DELETE FROM CarRental c WHERE c.requestId = :requestId")
                 .setParameter("requestId", requestId)

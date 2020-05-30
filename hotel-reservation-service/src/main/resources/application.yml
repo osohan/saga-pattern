@@ -1,0 +1,16 @@
+server:
+  port: 8082
+spring:
+  profiles: local
+  application:
+    name: hotel-reservation-service
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+secrets:
+  path:
+    dataSourceDriverClassName: C:\Users\OSokhan\Documents\secrets\sagapattern\hotel-reservation\dataSourceDriverClassName
+    dataSourceUrl: C:\Users\OSokhan\Documents\secrets\sagapattern\hotel-reservation\dataSourceUrl
+    dataSourceUsername: C:\Users\OSokhan\Documents\secrets\sagapattern\hotel-reservation\dataSourceUsername
+    dataSourcePassword: C:\Users\OSokhan\Documents\secrets\sagapattern\hotel-reservation\dataSourcePassword
