@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/airplane-reservation-service/airplane-reservation-service.iml" filepath="$PROJECT_DIR$/airplane-reservation-service/airplane-reservation-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hotel-reservation-service/hotel-reservation-service.iml" filepath="$PROJECT_DIR$/hotel-reservation-service/hotel-reservation-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rental-car-reservation-service/rental-car-reservation-service.iml" filepath="$PROJECT_DIR$/rental-car-reservation-service/rental-car-reservation-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/saga-execution-controller/saga-execution-controller.iml" filepath="$PROJECT_DIR$/saga-execution-controller/saga-execution-controller.iml" />
+    </modules>
+  </component>
+</project>

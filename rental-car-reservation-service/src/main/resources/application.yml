@@ -1,0 +1,8 @@
+server:
+  port: 8080
+secrets:
+  path:
+    dataSourceDriverClassName: C:\Users\OSokhan\Documents\secrets\sagapattern\rental-car\dataSourceDriverClassName
+    dataSourceUrl: C:\Users\OSokhan\Documents\secrets\sagapattern\rental-car\dataSourceUrl
+    dataSourceUsername: C:\Users\OSokhan\Documents\secrets\sagapattern\rental-car\dataSourceUsername
+    dataSourcePassword: C:\Users\OSokhan\Documents\secrets\sagapattern\rental-car\dataSourcePassword
